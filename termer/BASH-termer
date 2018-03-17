@@ -1,0 +1,16 @@
+Terminal
+
+pwd
+
+cd {
+  cd ..
+  }
+
+ls {
+  ls -all
+}
+
+open
+
+clear
+
