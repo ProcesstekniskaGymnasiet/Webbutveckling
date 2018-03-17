@@ -1,0 +1,19 @@
+GIT
+
+GitHub
+
+Repository -> "Repo"
+
+Commit (Save) {
+  Hash
+]
+
+Master
+
+Branch
+
+Pull request (pulling)
+
+Merge
+
+Push (pushing)
