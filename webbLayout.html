@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="css/basic.css" rel='stylesheet'>
+	<link href="css/div.css" rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Rokkitt:200,300|Anonymous+Pro|Mina" rel="stylesheet">
+
+	<title>Webb Layout & Design</title>
+</head>
+
+<body>
+
+<!-- Gömt menu i vänster sidan -->	
+	<ul class="navigation">
+		<li class="nav-item">
+			<a href="#">Hem</a>
+		</li>
+		<li class="nav-item">
+			<a href="#">Layout & Design</a>
+		</li>
+		<li class="nav-item">
+			<a href="#">Floats</a>
+		</li>
+		<li class="nav-item">
+			<a href="#">Flexbox</a>
+		</li>
+		<li class="nav-item">
+			<a href="#">Grid</a>
+		</li>
+		<li class="nav-item">
+			<a href="#">Källor</a>
+		</li>
+	</ul>
+	<!-- Hamburgare menu bild -->
+	<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+	<label for="nav-trigger"></label>
+
+	<!-- Resten av sidan går in i en container -->
+	<div class="hela">
+
+
+		<div class="rubrik">
+			<h1>LAYOUT & DESIGN </h1>
+			<h3>Design, struktur och uppbyggnad av webbplatser</h3>
+		</div>
+
+		<div class="subheading">
+			<!-- <h2 class="subheading__heading"><span>Inledning</span></h2> -->
+			<p class="kap-inledning">
+				Från början av kursen har vi lärt oss hur man använder många element inom
+				<strong>HTML5</strong> och att styla med
+				<strong>CSS3</strong> så det ser bättre ut. Vi har jobbat med box-modellen och även lite med
+				<strong>DOM</strong>:en. Men för det mesta är vi fast med standard vertikalt flöde på sidan.
+				<strong>Block</strong> elements
+				uppträdde alltid vertikalt en efter varandra, vilket effektivt begränsar oss till en enkel kolumnlayout.
+				<strong>Inline</strong> elements är svårt att styra utan att lägga de inom en <strong>div</strong>.
+				<br> Vad finns det för hjälp för att skapa alla kända sidor? Hur gör man de utan att man sliter sig eller behöver
+				man använda <strong>JavaScript</strong>?
+			</p>
+		</div>
+		<div class="subheading">
+			<h2 class="subheading__heading">
+				<span>Floats</span>
+			</h2>
+			<p class="content">Ursprungligen för flytande bilder i textblock har <strong>float</strong> egenskapen blivit ett av de vanligaste verktygen för 
+			   att skapa flera kolumnlayouter på webbsidor. Syftet med floats är att lära dig hur man skapar <strong>drop caps</strong>,
+			   floated bilder där texten wraps runt och flera kolumnlayouter på webbsidor.
+			</p>
+			<p class="content">
+				<strong>Floats</strong> låter dig lägga in blocknivåelement sida vid sida istället för ovanpå varandra. Det här är en stor sak.
+				Det låter oss bygga alla slags layouter, inklusive sidofält, sidor med flera kolumner, galler och artiklar i tidskriftsformat
+				med text som flyter runt en bild. Här börjar vi slutligen skapa riktiga webbsidor. MDN har en bra 
+				<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats" target="_blank">exempel.</a> 
+				Och <a href="https://www.w3schools.com/cssref/pr_class_float.asp" target="_blank">här</a> en till från W3 School.
+			</p>
+		</div>
+		<div class="subheading">
+			<h2 class="subheading__heading">
+				<span>Flexbox</span>
+			</h2>
+			<p class="content">
+				Float-baserade layouter har oftast ersatts med Flexbox på moderna webbplatser. Men det är inte att säga att
+				<strong>Floats</strong> inte är värt att läsa. I över ett decennium fungerade flottor som grunden för de flesta webbplatser på
+				Internet, vilket innebär att du definitivt kommer att stöta på dem någon gång i din karriär.
+			</p>
+			<p class="content">
+				Layoutläget "Flexiboks" eller "Flexbox" erbjuder ett alternativ till Floats för att definiera det övergripande utseendet
+				på en webbsida. Medan flottörer bara låter oss placera våra lådor horisontellt, ger flexbox oss fullständig kontroll
+				över inriktningen, riktningen, ordningen och storleken på våra lådor.
+			</p>
+		</div>
+		<div class="subheading">
+			<h2 class="subheading__heading">
+				<span>Grid layout system</span>
+			</h2>
+			<p class="content">
+				CSS Grid Layout är det mest kraftfulla layoutsystemet tillgängligt i CSS. Det är ett 2-dimensionellt system, vilket betyder
+				att det kan hantera både kolumner och rader, till skillnad från flexbox som i stor utsträckning är ett 1-dimensionellt
+				system. Du arbetar med Grid Layout genom att tillämpa CSS regler både på ett moderelement (som blir Grid Container) och
+				till det här elementet barn (som blir Grid Items).
+			</p>
+		</div>
+
+		<div class="pre-container">
+			<pre class="highlight">
+				<code>
+					<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Det här är en kodblock med some HTML i.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+				</code>
+      		</pre>
+		</div>
+	</div>
+
+</body>
+
+</html>
