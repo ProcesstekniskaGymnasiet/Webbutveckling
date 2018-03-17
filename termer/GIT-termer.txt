@@ -21,3 +21,7 @@ Fork {
 Issues {
 
 ]
+
+GIT (local)
+
+Clone
