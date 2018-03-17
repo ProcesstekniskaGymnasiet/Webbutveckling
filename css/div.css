@@ -1,0 +1,29 @@
+.flex-container {
+  border: 5px solid #ffcc5c;
+  margin-top: 20px;
+  
+}
+
+.flex-container>div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+  background-color: #ed9f9c;
+}
+
+.flex-container>div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.flex-container>div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.flex-container>div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+.flex-item2 {
+ 
+}
