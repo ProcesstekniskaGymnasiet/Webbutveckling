@@ -1,19 +1,23 @@
-GIT
+GIT - Aplicación local para control de version.
 
-GitHub
+GitHub - Repositorio web don de se puede guardar todos los proyectos y colaborar con otros.
 
-Repository -> "Repo"
+Repository -> "Repo" - Es lo que llamariamos un proyecto
 
 Commit (Save) {
   Hash
 ]
 
-Master
+Master {
+  Branch
+  Pull request (pulling)
+  Merge
+}
 
-Branch
+Fork {
+  Push (pushing)
+}
 
-Pull request (pulling)
+Issues {
 
-Merge
-
-Push (pushing)
+]
