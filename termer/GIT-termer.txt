@@ -24,4 +24,6 @@ Issues {
 
 GIT (local)
 
-Clone
+Clone - Trear de GitHub el repositorio. Sintaxi: git clone path (p.ex. https://github.com/StromstadGymnasium/Webbutveckling.git)
+
+status - Comprobar como están los diferentes archivos (compara local Git con Gothub)
