@@ -4,7 +4,7 @@
 
 Utveckling av en webbsida med alla lektioner som elever går igenom
 
-Foku på HTML5, CSS3 och JavaScript (ECMAScript 5)
+Fokus på HTML5, CSS3 och JavaScript (ECMAScript 5)
 
 
 
